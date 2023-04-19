@@ -10,4 +10,8 @@ public class IndexController {
     public String oupsHandler(){
         return "notimplemented";
     }
+
+    public String oopsHandler(){
+        throw new ValueNotFoundException();
+    }
 }
